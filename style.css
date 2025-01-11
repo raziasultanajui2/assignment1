@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+#hero{
+    width: 858px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    padding: 80px 100px 80px 100px;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+#hero .hero-text .details{
+    height: 135px;
+    width: 416px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0;
+}
+
+#hero .hero-text text{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+#hero .hero-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 180px;
+    height: 38px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#hero .hero-btn:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+#hero .hero-img{
+    height: 221px;
+    width: 318px;
+    
+}
+#hero .hero-img img{
+    width: 100%;
+}
+
+.vision{
+    margin: 20px 110px;
+}
+.vision .vision-text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.vision .vision-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.vision .vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10;
+    
+}
+.vision .vision-card{
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 260px;
+    width: 330px;
+    padding: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision .vision-card:hover{
+    background-color: rgb(239, 235, 232);
+}
+
+.vision .vision-card1{
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 260px;
+    width: 330px;
+    padding: 16px;
+    background-color: rgb(198, 228, 214);
+}
+.vision .vision-card1:hover{
+    background-color: rgb(239, 235, 232);
+}
+
+.vision .vision-card2{
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 260px;
+    width: 330px;
+    padding: 16px;
+    background-color: rgb(247, 235, 207);
+}
+.vision .vision-card2:hover{
+    background-color: rgb(239, 235, 232);
+}
+
+
+
+.vision-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin: 18px 0;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(84, 144, 245);
+}
+.vision-btn:hover{
+    background-color: pink;
+}
+
+.vision-btn1{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin: 18px 0;
+    border: none;
+    background-color: rgb(9, 161, 92);
+    cursor: pointer;
+}
+.vision-btn1:hover{
+    background-color: pink;
+}
+.vision-btn2{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin: 18px 0;
+    border: none;
+    background-color: rgb(255, 194, 57);
+    cursor: pointer;
+}
+.vision-btn2:hover{
+    background-color: pink;
+}
+.vision .vision-detail{
+    margin: 10px 0;
+}
+.vision .aro-text{
+    margin: 10px 0;
+}
+
+/*
+
+.recent{
+    margin: 20px 110px;
+}
+.recent .recent-text h1{
+    margin-top: 80px;
+    font-family: Fira Sans;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.recent .recent-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.recent-container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: whitesmoke;
+    padding: 20px 0;
+}
+
+.recent .satalite .satalite-title h1{
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.recent .satalite .satalite-img img{
+    /*margin: 10px 0;
+    width: 100px;
+    border-radius: 10px;
+}
+.recent .recent-container .recent-img{
+    border-radius: 10px;
+}
+.recent .recent-container .recent-img img{
+    height: 235px;
+    width: 294px;
+    border-radius: 20px;
+    padding: 0 30px;
+}
+.recent .satalite .date{
+    margin: 8px 0;
+}
+.recent .satalite .satalite-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 28px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    
+}
+.recent .satalite .satalite-detail{
+    padding: 15px 0;
+}*/
+
+.recent1{
+    margin: 20px 110px;
+}
+.recent1 .recent-text1 h1{
+    margin-top: 80px;
+    font-family: Fira Sans;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.recent1 .recent-text1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.recent1 .recent1-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.recent1 .recent1-container .details{
+    padding: 0 20px;
+}
+
+
+.recent1 .details .jazera-title{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.recent1-container .jazera-img img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+.recent1 .details .jazera-detail{
+    padding: 8px 0;
+}
+
+.recent1 .details .jazera-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 28px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
+.recent1 .details .jazera-btn:hover{
+    background-color: pink;
+    color: white;
+
+}
+
+.recent1 .recent1-container .satalite-img img{
+    border-radius: 20px;
+    height: 235px;
+}
+
+
+
+
+
+
+
+.recent{
+    margin: 20px 110px;
+}
+.recent .recent-text h1{
+    margin-top: 80px;
+    font-family: Fira Sans;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.recent .recent-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.recent .recent-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.recent .detail .jazera-title{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.recent .recent-container .detail .date span{
+    padding-right: 50px;
+}
+.recent-container .jazera-img img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+.recent .detail .jazera-detail{
+    padding: 8px 0;
+}
+
+.recent .detail .jazera-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 28px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    
+}
+
+.recent .detail .jazera-btn:hover{
+    background-color: pink;
+    color: white;
+}
+
+.recent .recent-container .satalite-img img{
+    border-radius: 20px;
+    height: 235px;
+}
+
+
+
+
+.donate{
+    margin: 20px 100px;
+    
+}
+.donate .donate-text{
+    text-align: center;
+}
+.donate .donate-text h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 60px;
+}
+.donate .donate-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 45px;
+}
+
+.donate .donate-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 40px;
+    
+}
+.donate .donate-container .donate-box{
+    height: 60px;
+    width: 160px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.donate .donate-container .donate-box h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.donate .donate-container .donate-box1{
+    height: 60px;
+    width: 160px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
+.donate .donate-container .donate-box1 h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.donate .donate-container .donate-box1:hover{
+    background-color: pink;
+    color: white;
+}
+.donate .line-box{
+    text-align: center;
+}
+.donate .line-box input{
+    color: rgba(14, 14, 14, 0.3);
+    padding-top: 10px;
+    margin: 0 100px;
+    height: 40px;
+    width: 870px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.donate .donate-btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 28px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.donate .donate-btn:hover{
+    background-color: black;
+    color: white;
+}
+.donate .donate-container .donate-box:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+
+.subscribe{
+    margin: 60px 120px;
+    background-color: rgb(198, 228, 214);
+    text-align: center;
+    padding: 40px;
+}
+.subscribe h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subscribe h4{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+.sub-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe label{
+    position: relative;
+}
+
+.subscribe input{
+    border: none;
+    width: 460px;
+    height: 50px;
+    padding: 0 16px;
+}
+.sub-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: teal;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+}
+.sub-btn:hover{
+    transition: .8s;
+    background-color: #6c6c6c;
+}
+
+.quote{
+    margin: 20px 110px;
+    padding: 10px;
+    background-color: white;
+}
+.quote .quo-pic{
+    position: absolute;
+}
+.quote .quote-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+.quote .quote-text h1{
+    padding: 10px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quote .quote-text h4{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
